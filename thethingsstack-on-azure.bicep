@@ -224,7 +224,7 @@ resource publicIP 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
     name: publicIPAddressName
     location: location
     properties: {
-        publicIPAllocationMethod: 'Dynamic'
+        publicIPAllocationMethod: 'Static'
         publicIPAddressVersion: 'IPv4'
         dnsSettings: {
             domainNameLabel: dnsLabelPrefix
