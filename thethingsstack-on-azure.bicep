@@ -232,7 +232,7 @@ resource publicIP 'Microsoft.Network/publicIPAddresses@2020-06-01' = {
         idleTimeoutInMinutes: 4
     }
     sku: {
-        name: 'Basic'
+        name: 'Standard'
     }
 }
 
