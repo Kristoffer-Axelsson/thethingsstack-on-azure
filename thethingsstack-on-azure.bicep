@@ -296,7 +296,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2020-06-01' = {
             }
             imageReference: {
                 publisher: 'Canonical'
-                offer: 'UbuntuServer'
+                offer: '0001-com-ubuntu-server-jammy'
                 sku: '22_04-lts-gen2'
                 version: 'latest'
             }
